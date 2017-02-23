@@ -1,4 +1,9 @@
 package api;
 
-public class MoveEndpoint {
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+class MoveEndpoint {
+
+  private static final Logger LOGGER = LoggerFactory.getLogger(MoveEndpoint.class);
 }
